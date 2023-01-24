@@ -108,7 +108,7 @@ collection are not accepted.
 
 ### How can I provide support for users of my extension? {: #faq-gen-27 }
 
-First you must "Enable User Feedback" in your developer dashboard Account settings. 
+First you must "Enable User Feedback" in your developer dashboard Account settings.
 
 {% Img src="image/BhuKGJaIeLNPW9ehns59NfwqKxF2/ArMfJztL1OlP6UektUwb.png", alt="Enable User Feedback Support tab", width="700", height="85" %}
 
@@ -158,7 +158,7 @@ pushed out to users over the next few hours.
 
 ### Can I host my own extension? {: #faq-dev-03 }
 
-You can host your own extensions in limited cases, such as for Linux or Chrome OS users. Consider [enterprise publishing][cws-enterprise] or developer mode.
+You can host your own extensions in limited cases, such as for Linux or ChromeOS users. Consider [enterprise publishing][cws-enterprise] or developer mode.
 
 ## Creating a listing
 
@@ -174,7 +174,7 @@ The item won't appear in the web store until it has successfully completed the r
 details, see [Chrome Web Store Review Times][cws-review-times].
 
 Extensions which are published to the same domain as the publisher address may be approved more
-quickly. Learn more about [enterprise publishing][enterprise].
+quickly. Learn more about [enterprise publishing][cws-enterprise].
 
 ### How can I remove my listing from the store? {: #faq-listing-03 }
 
@@ -243,7 +243,7 @@ to only users of the "en-GB" Chrome Web Store.
 ### My item's status says "pending review." What does this mean? {: #faq-listing-08 }
 
 This means that you've submitted your item for publishing and it is currently in the queue to be
-[reviewed][cws-review]. The item will not appear in the store until it passes this review. 
+[reviewed][cws-review]. The item will not appear in the store until it passes this review.
 
 ### How long will it take to review my item? {: #faq-listing-108 }
 
@@ -285,7 +285,7 @@ or egregious policy violations may result in [termination of your developer acco
   this information in the [Status Tab][comply-policies] of your item.
 - Please make the appropriate
   changes so your extension complies with all [Developer Program Policies][program-policies], [Branding
-  Guidelines][branding] and [Terms of Services][terms-of-services]. For additional help, see the 
+  Guidelines][branding] and [Terms of Services][terms-of-services]. For additional help, see the
   [Troubleshooting violations FAQ][troubleshoot-violations].
 - Once you have remedied the violation you can
   resubmit via your developer dashboard.
@@ -324,7 +324,7 @@ Business related issues by contacting [CWS support][cws-support].
 [complaint-handling]: /docs/webstore/complaint-faq
 [comply-policies]: /docs/webstore/manage/#comply-with-chrome-web-store-policies
 [cws-distribution]: /docs/webstore/cws-dashboard-distribution/
-[cws-enterprise]: /docs/webstore/cws-dashboard-enterprise/
+[cws-enterprise]: /docs/webstore/cws-enterprise/
 [cws-images]: /docs/webstore/images/
 [cws-register]: /docs/webstore/register
 [cws-review]: /docs/webstore/review-process/
@@ -334,7 +334,6 @@ Business related issues by contacting [CWS support][cws-support].
 [dev-dashboard]: https://chrome.google.com/webstore/developer/dashboard
 [faq-localize-description]: #faq-gen-20
 [faq-localize-screenshots]: #faq-gen-21
-[enterprise]: /docs/webstore/cws-enterprise
 [ext]: /docs/extensions/
 [extension-faq]: /docs/extensions/mv3/faq
 [google-groups]: https://groups.google.com
@@ -342,7 +341,7 @@ Business related issues by contacting [CWS support][cws-support].
 [internationalize]: /docs/webstore/i18n
 [malware-policy]: https://www.google.com/about/company/unwanted-software-policy.html
 [manifest-version]: /docs/extensions/mv3/manifestVersion
-[program-policies]: /docs/webstore/program_policies
+[program-policies]: /docs/webstore/program-policies
 [region-distribution]: /docs/webstore/cws-dashboard-distribution/#setting-the-geographic-distribution
 [stackoverflow-extensions]: https://stackoverflow.com/questions/tagged/google-chrome-extension
 [support-url]: /docs/webstore/cws-dashboard-listing/#support-url

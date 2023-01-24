@@ -9,12 +9,11 @@ hero: 'image/sQ51XsLqKMgSQMCZjIN0B7hlBO02/km2rEb4m5xmqo3Y2KVMn.png'
 alt: >
   Deprecations and Removals hero logo
 tags:
-  - deprecations
-  - removals
+  - deprecations-removals
   - chrome-99
 ---
 
-{% include 'partials/see-all-dep-rem.md' %}
+{% Partial 'see-all-dep-rem.md' %}
 
 Chrome 99 beta was released on February 3, 2022 and is expected to become the
 stable version in early March, 2022.
@@ -39,7 +38,7 @@ alignment with the CSS specifications and with Firefox.
 ## Remove GamepadList
 
 The
-`[navigator.getGamepads()](https://developer.mozilla.org/en-US/docs/Web/API/Navigator/getGamepads)`
+[`navigator.getGamepads()`](https://developer.mozilla.org/docs/Web/API/Navigator/getGamepads)
 method now returns an array of
 [`Gamepad`](https://developer.mozilla.org/docs/Web/API/Gamepad) objects
 [instead of a GamepadList](https://www.chromestatus.com/feature/5693119438782464).
@@ -67,4 +66,4 @@ timestamp to zero. This seems helpful, but is problematic if you then send the
 `VideoFrame` to a `VideoEncoder`, where timestamps are used to guide bitrate
 control.
 
-{% include 'partials/deprecations-policy.md' %}
+{% Partial 'deprecations-policy.md' %}

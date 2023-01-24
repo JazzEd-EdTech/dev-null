@@ -1,11 +1,14 @@
 ---
 layout: "layouts/doc-post.njk"
-title: "Inspect and Debug CSS Flexbox Layouts"
+title: "Inspect and debug CSS flexbox layouts"
 authors:
   - jecelynyeen
 date: 2022-02-08
 #updated: YYYY-MM-DD
 description: "Learn how to use Chrome DevTools to inspect, modify and debug CSS flexbox layouts."
+tags:
+  - prototype-fixes
+  - css
 ---
 
 {% YouTube id='J5n2aS37rpE' %}

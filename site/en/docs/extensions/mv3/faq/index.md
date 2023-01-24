@@ -1,6 +1,7 @@
 ---
 layout: "layouts/doc-post.njk"
 title: "Frequently asked questions"
+seoTitle: "Chrome Extensions: Frequently asked questions"
 date: 2014-02-28
 updated: 2020-11-20
 description: Frequently asked questions about Chrome Extensions.
@@ -69,7 +70,7 @@ cros,beta,#.#.###.#,#.#.###.#,mm/dd/yy,mm/dd/yy,#####,#####,#####
 ```
 
 Each line represents information about a different platform and channel combination. The listed
-platforms are `cf` (Google Chrome Frame), `linux`, `mac`, `win`, and `cros` (Google Chrome OS). The
+platforms are `cf` (Google Chrome Frame), `linux`, `mac`, `win`, and `cros` (Google ChromeOS). The
 listed channels are `canary`, `dev`, `beta`, and `stable`. The two four-part numbers after the
 channel represent the current and previous versions of Chrome deployed to that platform-channel
 combination. The rest of the information is metadata about when the releases were first pushed, as
@@ -303,7 +304,7 @@ The steps you should follow to ensure this are:
 [30]: #faq-fea-01
 [31]: #faq-fea-02
 [32]: /docs/extensions/mv3/getstarted
-[33]: /docs/extensions/api_other
+[33]: https://developer.mozilla.org/docs/Web/API
 [34]: https://omahaproxy.appspot.com
 [35]: /docs/extensions/mv3/xhr
 [36]: https://json.org/js.html

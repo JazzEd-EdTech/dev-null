@@ -6,7 +6,7 @@ updated: 2017-04-27
 description: How to show notifications to your Chrome Extension users.
 ---
 
-{% include 'partials/extensions/mv2-legacy-page.md' %}
+{% Partial 'extensions/mv2-legacy-page.md' %}
 
 <div class="aside aside--note"><strong>Platform difference:</strong> In Chrome version 59, notifications appear differently for Mac OS X users. Instead of Chrome's own notifications, users see native Mac OS X notifications. <a href="https://developers.google.com/web/updates/2017/04/native-mac-os-notifications">Learn more in this article</a>.</div>
 
@@ -44,7 +44,7 @@ Progress notifications show a progress bar:
 
 ## How they behave {: #behave }
 
-On Chrome OS, notifications show up in a user's system tray, and stay in the system tray until the
+On ChromeOS, notifications show up in a user's system tray, and stay in the system tray until the
 user dismisses them. The system tray keeps a count of all new notifications. Once a users sees the
 notifications in the system tray, the count is reset to zero.
 

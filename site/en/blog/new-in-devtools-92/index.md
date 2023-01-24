@@ -15,7 +15,7 @@ tags:
   - chrome-92
 ---
 
-{% include 'partials/devtools/en/banner.md' %}
+{% Partial 'devtools/banner.md' %}
 
 {% YouTube id="2baY3JpCxpo" %}
 
@@ -65,7 +65,7 @@ View iframe details by right clicking on the iframe element in the Elements pane
 
 {% Img src="image/dPDCek3EhZgLQPGtEG3y0fTn4v82/YdENg6wjsgPNyMODdOHC.png", alt="Show frame details", width="800", height="486" %}
 
-This takes you to a view of the iframe's details in the Application panel where you can examine document details, security & isolation status, permissions policy, and more to debug potential issues.
+This takes you to a view of the iframe's details in the Application panel where you can examine document details, security & isolation status, [permissions policy](/docs/privacy-sandbox/permissions-policy/), and more to debug potential issues.
 
 {% Img src="image/dPDCek3EhZgLQPGtEG3y0fTn4v82/hEsg9Mc95n7w2tPrv6KH.png", alt="Frame details view", width="800", height="516" %}
 
@@ -223,5 +223,5 @@ Please note that this is an early-stage experiment. We plan to improve and expan
 Chromium issue: [1199787](https://crbug.com/1199787)
 
 
-{% include 'partials/devtools/en/reach-out.md' %}
-{% include 'partials/devtools/en/whats-new.md' %}
+{% Partial 'devtools/reach-out.md' %}
+{% Partial 'devtools/whats-new.md' %}

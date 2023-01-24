@@ -19,7 +19,7 @@ tags:
 
 *Переводы предоставлены [Alena Batitskaya](https://github.com/solarrust). Редактор — [Maxim Salnikov](https://twitter.com/webmaxru).*
 
-{% include 'partials/devtools/ru/banner.md' %}
+{% Partial 'devtools/banner.md' %}
 
 {% YouTube id="1VaPAnUGRz8" %}
 
@@ -181,7 +181,7 @@ https://chromium.googlesource.com/devtools/devtools-frontend/+/16d96a25f24c934ef
 В панели Manifest теперь отображается
 [`new_note_url`](https://wicg.github.io/manifest-incubations/index.html#dfn-note_taking).
 
-В настоящее время в Chrome OS (CrOS) приложения Chrome и Android, в которых
+В настоящее время в ChromeOS (CrOS) приложения Chrome и Android, в которых
 есть возможность создания заметок, могут быть выбраны в качестве приложения
 для создания заметок в настройках стилуса (отображаются, если устройство CrOS
 используется со стилусом). Если приложение помечено таким образом,
@@ -235,5 +235,5 @@ https://chromium.googlesource.com/devtools/devtools-frontend/+/250c88b4d02da283c
 
 Задача в трекере Chromium: [998674](https://crbug.com/998674)
 
-{% include 'partials/devtools/ru/reach-out.md' %}
-{% include 'partials/devtools/ru/whats-new.md' %}
+{% Partial 'devtools/reach-out.md' %}
+{% Partial 'devtools/whats-new.md' %}

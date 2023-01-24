@@ -6,6 +6,8 @@ authors:
 date: 2015-04-13
 updated: 2021-09-11
 description: "Learn how to view, edit, and delete a page's HTTP cookies using Chrome DevTools."
+tags:
+  - storage
 ---
 
 [HTTP Cookies][1] are mainly used to manage user sessions, store user personalization preferences,
@@ -34,7 +36,7 @@ The **Cookies** table contains the following fields:
 - **Expires / Max-Age**. The cookie's expiration date or maximum age.
   For [session cookies][6] this value is always `Session`.
 - **Size**. The cookie's size, in bytes.
-- **HTTP**. If true, this field indicates that the cookie should only be used over HTTP, and
+- **HttpOnly**. If true, this field indicates that the cookie should only be used over HTTP, and
   JavaScript modification is not allowed.
 - **Secure**. If true, this field indicates that the cookie can only be sent to the server over a
   secure, HTTPS connection.
