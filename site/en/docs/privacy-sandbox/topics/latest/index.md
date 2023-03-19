@@ -1,6 +1,6 @@
 ---
 layout: 'layouts/doc-post.njk'
-title: 'Topics API: latest updates'
+title: 'Topics API latest updates'
 subhead: >
  Updates and enhancements to the design and implementation of the API.
 description: >
@@ -49,8 +49,6 @@ utility testing becomes possible in 2023, we look forward to deeper industry eng
 Topics and develop best practices for its use in digital advertising products. If you are testing
 Topics we encourage you to share your plans and insights on the 
 [Topics API Tester List](https://github.com/patcg-individual-drafts/topics/blob/main/topics-tester-list.md).   
-
-— Posted by Leeron Israel, Privacy Sandbox Product Manager for the Topics API.
 
 ## Ecosystem feedback on Topics for Q3 2022
 
@@ -103,7 +101,7 @@ the Topics proposal](https://github.com/patcg-individual-drafts/topics/issues) o
 also provide feedback via the
 [Privacy Sandbox feedback form](https://docs.google.com/forms/d/e/1FAIpQLSePSeywmcwuxLFsttajiv7NOhND1WoYtKgNJYxw_AGR8LR1Dg/viewform).
 
- Here are some specific areas where the Chrome team is seeking input from testers and other
+Here are some specific areas where the Chrome team is seeking input from testers and other
 stakeholders.
 
 ### Topics taxonomy
@@ -137,7 +135,7 @@ effectively assign topics for sites with diverse sets of content.
 
 ### Topics ranking
 
-The top five topics for an [epoch](/docs/privacy-sandbox/topics-api/#how-does-the-topics-api-work)
+The top five topics for an [epoch](/docs/privacy-sandbox/topics/topic-classification/#how-the-users-top-five-topics-are-selected)
 are selected based on frequency. That is, the browser selects the five topics that appeared most
 frequently in a user's browsing history for a given week. Some stakeholders have shared alternative
 approaches to calculating the top topics, including variables such as inverse document frequency
